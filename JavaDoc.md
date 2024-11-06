@@ -30,6 +30,8 @@ Primary data types consist of 4 types only but is segrgated more in subtypes
 | Charachters (char) |      4       | store single letter data |          char          |
 |      Boolean       |      4       |  store true/false data   |        boolean         |
 
+---
+
 |    Type     | Memory Bytes |                          Purpose                          |    Range     |           Example           |
 | :---------: | :----------: | :-------------------------------------------------------: | :----------: | :-------------------------: |
 |    byte     |      1       |                    store numeric data                     | [-128 , 127] |       `byte num = 1;`       |
