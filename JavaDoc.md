@@ -45,3 +45,10 @@ Primary data types consist of 4 types only but is segrgated more in subtypes
 |   boolean   |      1       |                 store true or false data                  |              |  `boolean isVerify= true`   |
 
 2.  Non Primitive Also called reference types
+
+## Advance Java
+
+1. Object Oriented Programming
+2. Every Object has 2 thing Property and Method
+3. Object Require Class
+4. Object is created with JVM but jvm require class file and so java compiler create byte code .class file which is then provided to jvm
