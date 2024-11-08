@@ -52,3 +52,5 @@ Primary data types consist of 4 types only but is segrgated more in subtypes
 2. Every Object has 2 thing Property and Method
 3. Object Require Class
 4. Object is created with JVM but jvm require class file and so java compiler create byte code .class file which is then provided to jvm
+
+### Need of an array

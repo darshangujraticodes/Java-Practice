@@ -58,6 +58,28 @@ public class AdvanceJava {
 
         System.out.println(sum);
 
+
+        int[] num = { 5,8,5,4,8,65,878};
+
+        System.out.println(num.length);
+
+        // for(int i = 0 ; i < num.length ; i++){
+        //     System.out.println(num[i]);
+        // }
+
+
+        // loop for array elements
+
+        for(int i : num){
+            System.out.println(i);
+        }
+
+        String[] studentName = {"Darsh", "rahul", "vinod"};
+
+        for(String i : studentName){
+            System.out.println(i);
+        }
+
     }
     
     
