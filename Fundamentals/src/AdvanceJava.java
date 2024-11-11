@@ -40,8 +40,6 @@ public class AdvanceJava {
 
     public static void main(String[] args) {
 
-
-
         Circle obj1 = new Circle();
         double area1 = obj1.area(15);
         double area2 = obj1.area(15.5);
@@ -58,6 +56,7 @@ public class AdvanceJava {
 
         System.out.println(sum);
 
+        // single array
 
         int[] num = { 5,8,5,4,8,65,878};
 
@@ -76,11 +75,60 @@ public class AdvanceJava {
 
         String[] studentName = {"Darsh", "rahul", "vinod"};
 
+        // enahnce for loop of array
+
         for(String i : studentName){
             System.out.println(i);
         }
+
+
+        // Multi Dimensional Array
+
+        int matrix[][] = new int[4][4];
+
+        // 
+
+        for(int i=0; i < 4; i++){
+            for(int j=0 ; j< 4;j++){
+                System.out.print(matrix[i][j] = (int)(Math.random() * 10) );
+               
+            } 
+            System.out.println();
+        }
+
+        // enahnce for loop of 2 dimensional array
+
+        for (int[] i : matrix){
+            for(int j : i){
+                    System.out.println(j);
+            }
+            System.out.println();
+        }
+
+
+        // new table
+
+        System.out.println("-----------------");
+        int sqTable[][] = new int[2][4];
+
+        for (int i=0; i < 2; i++){
+            for (int j =0; j<4;j++){
+                System.out.println( sqTable[i][j] = (int) (Math.random() * 10)    );
+            }
+            System.out.println();
+        }
+
+        for(int[] i : sqTable){
+            for(int j : i){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+
 
     }
     
     
 }
+
+
