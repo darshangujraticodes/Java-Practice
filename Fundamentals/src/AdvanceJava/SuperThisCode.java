@@ -1,4 +1,7 @@
 
+package AdvanceJava;
+
+
 class ParentClass extends Object{
 
      // method
@@ -131,7 +134,7 @@ you want to execute both the constructor of same class with one object only
 
 1] In this we override the method code of parent class with our extra function and override the parent methods data to get our desired result 
 2] example above userData() parent class method is override by adding new content of userDevice in child class due to which it call override parent class data
- 
+
 
 
 
