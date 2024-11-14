@@ -1,5 +1,5 @@
 
-interface  Car {
+interface Car {
 
 
     // interface property are static and final
@@ -9,8 +9,13 @@ interface  Car {
     void carFeature();
 }
 
+interface LuxuryCar{
+    String[] luxuryCarModels = { "BMW", "Mercedes", "Porche" , "Ferrari", "Rolls Royce" };
+}
 
- class TataCar implements Car  {
+
+ class TataCar implements Car , LuxuryCar  {
+
 
  
     public void carModel() {
@@ -31,7 +36,17 @@ public class InterfaceCode {
         Obj.carFeature();
 
 
-        System.out.println(Car.carRTONumber);
+      LuxuryCar obj2 = new TataCar();
+
+      System.out.println(Car.carRTONumber);
+
+      String[] premiumCars = obj2.luxuryCarModels;
+
+      for(String i : premiumCars){
+        System.out.println(i);
+      }
+
+      
 
     }
 }
@@ -54,6 +69,23 @@ as we know in abstract class cannot be declare using objects it will require chi
 
 but here in interface instead of "extends" (to inherit parent class property and methods ) here we write "implements" (to inherit interface methods and property)
 so TataCar implements Car(Interface Name)
+
+note child class can inherit more than 1 interface
+
+
+Why Do we need Interface or 
+
+1] 
+
+
+
+
+class to class -> extends
+
+class to interface -> implements
+
+interface to interface -> extends
+
 
 
 
