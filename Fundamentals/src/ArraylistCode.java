@@ -8,7 +8,7 @@ public class ArraylistCode {
 
         /*
         
-        Array List is orderlist , index based, dynamically increased list
+        Array List is orderlist , index based, dynamically increased list, duplicate values are allowed
     
 
          */
@@ -55,6 +55,21 @@ System.out.println("\nEnhance for loop ");
         Collections.sort(list);
 
         System.out.println(list);
+
+        ArrayList<Integer> list2 =  (ArrayList) list.clone();
+        
+        list2.add(0, 115);
+
+        list2.sort(null);
+
+        System.out.println(list2 +" : "+list2.size());
+
+        list.clear();
+
+        // list.removeAll(list);
+
+        System.out.println(list);
+
 
     }
 }
